@@ -63,8 +63,8 @@ def main():
         f = open(sequence)
         words = f.read().strip()
         f.close()
-        if len(words.split(' ')) != 23:
-            print("ERROR: it does not seem 23 words sequence")
+        if len(words.split(' ')) != 12:
+            print("ERROR: it does not seem 12 words sequence")
             sys.exit()
     except:
         print("ERROR: error while reading your 23 words bip39 sequence")
